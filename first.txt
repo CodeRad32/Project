@@ -1,0 +1,33 @@
+# import request( '/system');                     # destination route
+# use package('service/system');                  # destination route
+# use WARN['warnings for user'];                  # warnings user 
+# use SHOW['system warnings for users'];          # systems warns user
+# use READ['for users instructions'];             # instructions
+# use EDIT['source/script']; IF['script/source']; # scripts and source @LINK(s)
+#
+# BEGIN @COPY('seek/service'); # look for service package service::package
+# for while: {'test/support'}; # test for support package support::package
+# do_command('while: ACTIVE'); # while test ACTIVE runtime { ... } &pass: (('eq >> value | set'))
+#
+# for while VALID() @COPY__ checkpoint('AVAILABLE');
+#
+# <!-- Comments Generally sh ... !!! --> # # # ,
+# @DATA checkcopy('VOID("NULL") or TRUE("FALSE")') # correct its not or true its incorrect.
+# # Html Source DATA(META >> profile.acc* )  # A: part (1/2)
+# <pre> <code> <!-- Pre Code Html Script --> # B: part (2/2)
+# # "source/index.html" => 'https/www/ssl/html/' set: 1 for while number valid CONFRIM['user "defined" number']
+# # for valid(' @COPY -> _SOURCE[' ARG_V_, ARG_INDEX_, ARG_META_, ARG_TIME_, ARG_HOME_ '] confirm >> pass: 1 ')
+# # "javascript/app.js" => 'src/script' <!-- 'javascript/framework' --> # # # ,
+# # end of precode html source "script/code" <&&> else: GET: '/post' for post( Func fx set default fs )
+# </code> </pre>
+#
+### credits: Cody James (Web Developer)         # Author of this small sample/file.txt
+### return values for project >> program        # return project
+### values set after confirm numbers listed     # return program value IF test/pass => @confirm[' $passing_items ']
+#
+return 0 # <!-- pass program                             --> ###, A => start( fx func )
+return 1 # <!-- pass check program                       --> ###, B => stage( fx func fs )
+return 2 # <!-- pass check special return                --> ###, C => test( fx func fs test )
+return 3 # <!-- pass check final return special request  --> ###, D => confirm( confirm func fx fs test )
+#
+END # End of file End of Transmission. EOL EOT # # # ,.;
